@@ -4,7 +4,7 @@ export async function POST(req: NextRequest) {
   try {
     const { messages } = await req.json();
 
-    const res = await fetch("https://harakyy.app.n8n.cloud/webhook/28af4c12-8598-45b7-a3af-66e6c2512d59", {
+    const res = await fetch("https://harakyy.app.n8n.cloud/webhook-test/28af4c12-8598-45b7-a3af-66e6c2512d59", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ messages }),
