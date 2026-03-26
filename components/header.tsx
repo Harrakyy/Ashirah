@@ -134,7 +134,7 @@ export function Header() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo and Company Name */}
             <Link href="/" className="flex items-center gap-4">
-              <div className="relative w-28 lg:w-32 h-10 lg:h-20">
+              <div className="relative w-24 lg:w-32 h-10 lg:h-20">
                 <Image
                   src="/images/logo.png"
                   alt="ASHIRA'H"
