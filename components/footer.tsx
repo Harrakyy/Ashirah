@@ -60,7 +60,14 @@ export function Footer() {
               </a>
               <div className="flex items-start gap-3 text-sm text-white/70">
                 <MapPin className="w-4 h-4 text-[#D4AF37] mt-0.5" />
-                <span>Grand Batavia Arcade, Tangerang, Indonesia</span>
+                 <a 
+                  href="https://maps.google.com/?q=Grand+Batavia+Arcade+Tangerang+Indonesia"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Grand Batavia Arcade, Tangerang, Indonesia
+                </a>
               </div>
             </div>
           </div>
