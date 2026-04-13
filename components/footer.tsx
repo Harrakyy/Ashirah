@@ -52,16 +52,16 @@ export function Footer() {
                 ashira.hco@ashira.com
               </a>
               <a 
-                href="https://wa.me/6285819993633"
+                href="https://wa.me/6281944455006"
                 className="flex items-center gap-3 text-sm text-white/70 hover:text-white transition-colors"
               >
                 <Phone className="w-4 h-4 text-[#D4AF37]" />
-                +62 858-1999-3633
+                Contact Our Marketing
               </a>
               <div className="flex items-start gap-3 text-sm text-white/70">
                 <MapPin className="w-4 h-4 text-[#D4AF37] mt-0.5" />
                  <a 
-                  href="https://maps.google.com/?q=Grand+Batavia+Arcade+Tangerang+Indonesia"
+                  href="https://maps.app.goo.gl/nu7iuEk42Wg8XoVE6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
