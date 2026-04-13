@@ -35,7 +35,7 @@ const teamMembers = [
     featured: false,
   },
   {
-    name: "Resky Amalia Putri",   // ← member baru
+    name: "Resky Amalia Putri",
     role: "CMO",
     company: "Ashira Group",
     email: "resky@ashira.com",
@@ -97,14 +97,14 @@ export function TeamSection() {
               {/* Contact buttons */}
               <div className="flex justify-center lg:justify-end gap-4 mt-6">
                 <a 
-                  href="mailto:ashira.hco@ashira.com"
+                  href={`mailto:${ceo.email}`}
                   className="flex items-center gap-2 px-4 py-2 text-sm text-white/70 hover:text-white border border-white/20 hover:border-white/40 transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                   Email
                 </a>
                 <a 
-                  href="https://wa.me/6285819993633"
+                  href={`https://wa.me/${ceo.whatsapp}`}
                   className="flex items-center gap-2 px-4 py-2 text-sm text-white/70 hover:text-white border border-white/20 hover:border-white/40 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
@@ -142,13 +142,13 @@ export function TeamSection() {
               {/* Hover contact */}
               <div className="flex justify-center gap-2 mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
                 <a 
-                  href="mailto:ashira.hco@ashira.com"
+                  href={`mailto:${member.email}`}
                   className="p-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                 </a>
                 <a 
-                  href="https://wa.me/6285819993633"
+                  href={`https://wa.me/${member.whatsapp}`}
                   className="p-2 text-muted-foreground hover:text-foreground transition-colors"
                 >
                   <Phone className="w-4 h-4" />
