@@ -15,15 +15,15 @@ const teamMembers = [
     role: "CFO",
     company: "Ashira Group",
     email: "adithia@ashira.com",
-    whatsapp: "628xxxxxxxxxx",
+    whatsapp: "6285156090324",
     featured: false,
   },
   {
     name: "Muhammad Rahadian Dzaki",
     role: "CTO",
     company: "Ashira Group",
-    email: "rahadian@ashira.com",
-    whatsapp: "628xxxxxxxxxx",
+    email: "rahadianstd@gmail.com",
+    whatsapp: "6285710615365",
     featured: false,
   },
   {
@@ -31,7 +31,7 @@ const teamMembers = [
     role: "Corporate Secretary",
     company: "Ashira Group",
     email: "safitri@ashira.com",
-    whatsapp: "628xxxxxxxxxx",
+    whatsapp: "6281212607444",
     featured: false,
   },
   {
@@ -39,7 +39,7 @@ const teamMembers = [
     role: "CMO",
     company: "Ashira Group",
     email: "resky@ashira.com",
-    whatsapp: "628xxxxxxxxxx",
+    whatsapp: "6281944455006",
     featured: false,
   },
 ]
